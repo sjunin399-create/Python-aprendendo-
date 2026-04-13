@@ -1,7 +1,10 @@
 import math
+
 angulo = int(input('Qual o ângulo? '))
-radianos = math.radiano(angulo)
+radianos = math.radians(angulo)
 seno = math.sin(radianos)
-cosseno = math.coss(radianos)
+cosseno = math.cos(radianos)
 tangente = math.tan(radianos)
-print(f'O seno, cosseno e tangente do ângulo {angulo} e. \nSeno:{seno}.\nCosseno:{cosseno}.\nTangente:{tangente}.')
+print(
+    f'O seno, cosseno e tangente do ângulo {angulo} e. \nSeno:{seno}.\nCosseno:{cosseno}.\nTangente:{tangente}.'
+)
