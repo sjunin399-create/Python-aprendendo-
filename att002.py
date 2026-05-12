@@ -1,2 +1,3 @@
 url = input('Digite um URL de um site: ')
-print(f' O protocolo e: {url[:5]}\n O dominio: {url[8:]}')
+pos_separador =()
+print(f' O protocolo e: {url[:5]}\n O dominio: {url.find}')
